@@ -6,10 +6,9 @@ import { SiPersistent } from 'react-icons/si'
 
 const Values = () => {
   return (
-    <div className='mx-[24px] md:mx-[100px] '>
-      <h2 className='text-[36px] font-bold text-center pb-6'>Here are 3 reasons why we are the best <br/>
-for your great ideas </h2>
-    <div className="grid grid-cols-1 md:grid-cols-3 md:gap-5">
+    <div className='mx-[24px] my-[200px] md:mx-[100px] '>
+      <h2 className='text-[24px] font-bold text-left md:text-center md:text-[36px] pb-6'>Here are 3 reasons why we are the best for your great ideas </h2>
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-5">
       <div className='md:col-span-1 bg-yellow-500 px-6 py-6 rounded-l-3xl'>
         <div className='h-[50px] w-[50px] rounded-full flex justify-center items-center bg-black '>
        <IoCreate size={24} color='white'/>

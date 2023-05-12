@@ -21,9 +21,9 @@ const Hero = () => {
           </button>
         </div>   
 
-        <div className="border ">
+        <div className=" ">
           <img
-            className="w-[100%] "
+            className="w-[100%] rounded-3xl "
             src="https://images.pexels.com/photos/326502/pexels-photo-326502.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
           />
