@@ -3,12 +3,12 @@ import Navbar from './Navbar';
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen border ">
+    <div className="w-full h-screen  ">
     <Navbar />
-      <div className=" px-[24px] wrap py-12  md:mx-[100px] py-32 flex flex-row space-x-12 items-center justify-between h-[calc(100vh-100px)] ">
-        <div className=" basis-1/2">
-          <h2 className="text-[42px] font-bold md:text-36px]">
-            Changing the world with innovative concepts and high-quality digital
+      <div className=" h-screen text-left md:h-[calc(100vh-100px)] mx-[24px] grid grid-cols-1 gap-4  md:grid-cols-2 md:mx-[100px] md:content-center">
+        <div className="">
+          <h2 className="text-[32px] font-bold md:text-[42px] ">
+            Changing the world with innovative concepts and quality digital
             products
           </h2>
           <p className="text-gray-500 py-4">
@@ -21,7 +21,7 @@ const Hero = () => {
           </button>
         </div>   
 
-        <div className="basis-1/2 ">
+        <div className="border ">
           <img
             className="w-[100%] "
             src="https://images.pexels.com/photos/326502/pexels-photo-326502.jpeg?auto=compress&cs=tinysrgb&w=600"
